@@ -1,4 +1,4 @@
-import { detectFrameworks, fetchPackageJson, MAX_REPOS_TO_CHECK } from "../utils/frameworkDetector";
+import { detectFrameworks, fetchPackageJson, MAX_REPOS_TO_CHECK } from "../utils/frameworkDetector.js";
 
 const SYNC_MAP = {
     JavaScript: "JavaScript",
